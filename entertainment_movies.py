@@ -14,11 +14,12 @@ nannakuPremato = media.Movie("Nannaku Prematho", "A revenge story of a son",
                              "http://www.belvoireagle.com/wp-content/uploads/2015/12/nannaku-prematho-new-poster-relased.jpg",
                              "https://www.youtube.com/watch?v=RwB6aOkmEgc")
 
-bengalTiger = media.Movie("Bengal Tiger", "The story of how a go lucky guy gets"
+bengalTiger = media.Movie("Bengal Tiger", "The story of a lucky guy"
                           " big", "http://www.apnewsforum.com/wp-content/gallery/ravi-teja-bengal-tiger-movie-posters/Ravi-Teja-Bengal-Tiger-Movie-First-Look-Wallpapers-8.jpg",
                           "https://www.youtube.com/watch?v=GCvipxfEnJY")
 
-nenuSailaja = media.Movie("Nenu Sailaja", " A Love Story", "http://rifflenow.com/wp-content/uploads/2015/12/Nenu-Sailaja-001.jpg",
+nenuSailaja = media.Movie("Nenu Sailaja", " A Love Story",
+                          "http://rifflenow.com/wp-content/uploads/2015/12/Nenu-Sailaja-001.jpg",
                           "https://www.youtube.com/watch?v=i916BRRHoTg")
 
 expressRaja = media.Movie("Express Raja", "A Love Story",
@@ -47,7 +48,4 @@ movies = [gabbarSinghSardar, nannakuPremato, bengalTiger, nenuSailaja,
 # open_movies_page() method in fresh_tomatoes module will take the list of
 # movies that are created and generates a webpage will all the movie info
 # that is provided like title, poster image, youtube url
-#fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.__name__)
-print(media.Movie.__module__)
-print(media.Movie.__doc__)
+fresh_tomatoes.open_movies_page(movies)

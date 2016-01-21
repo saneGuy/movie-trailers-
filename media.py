@@ -2,8 +2,6 @@ import webbrowser  # webbrowser package is to open websites
 # class Movie has attributes title, storyline, poster_image_url,
 # trailer_youtube_url and a method show_trailer()
 
-""" This class stores movie related information like title, storyLine,
-    poster url, youtube trailer url """
 
 class Movie():
     # __init__() is the constructor for the Movie class that takes the input
