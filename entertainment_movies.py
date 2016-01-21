@@ -1,6 +1,6 @@
-import media
-import webbrowser
-import fresh_tomatoes
+import media  # media module contains the Movie class
+import webbrowser  # webbrowser module is used to open urls
+import fresh_tomatoes  # fresh_tomatoes module contains open_movies_page()
 
 # Created instances of the movie for gabbarSingh , Nannaku Prematho,
 # Bengal Tiger, nenu sailaja, express raja, soggade chinni nayana, dictator,
