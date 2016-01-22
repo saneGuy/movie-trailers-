@@ -5,7 +5,7 @@ import fresh_tomatoes  # fresh_tomatoes module contains open_movies_page()
 # Created instances of the movie for gabbarSingh , Nannaku Prematho,
 # Bengal Tiger, nenu sailaja, express raja, soggade chinni nayana, dictator,
 # bruce lee the fighter, size zero with Title, Story line, Poster Image,
-# and Trailer Link
+# and Trailer Link, Actor and Director
 gabbarSinghSardar = media.Movie("Sardar Gabbar Singh", " The story of a Cop",
                                 "http://www.hdwallpapers.in/walls/pawan_kalyan_sardaar_gabbar_singh-HD.jpg",
                                 "https://www.youtube.com/watch?v=jiJtB8zjtMU",

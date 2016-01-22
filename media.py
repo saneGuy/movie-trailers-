@@ -8,7 +8,7 @@ class Movie():
 
     # __init__() is the constructor for the Movie class that takes the function
     # arguments and assign them to the instance variables title, storyline,
-    # poster_image_url, trailer_youtube_url
+    # poster_image_url, trailer_youtube_url, movie_actor, movie_director
     def __init__(self, movie_title, movie_storyline, poster, trailer_youtube,
                  movie_actor, movie_director):
         self.title = movie_title
