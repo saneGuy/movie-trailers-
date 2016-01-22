@@ -8,39 +8,48 @@ import fresh_tomatoes  # fresh_tomatoes module contains open_movies_page()
 # and Trailer Link
 gabbarSinghSardar = media.Movie("Sardar Gabbar Singh", " The story of a Cop",
                                 "http://www.hdwallpapers.in/walls/pawan_kalyan_sardaar_gabbar_singh-HD.jpg",
-                                "https://www.youtube.com/watch?v=jiJtB8zjtMU")
+                                "https://www.youtube.com/watch?v=jiJtB8zjtMU",
+                                "Pawan Kalyan", "Harish Shankar")
 
 nannakuPremato = media.Movie("Nannaku Prematho", "A revenge story of a son",
                              "http://www.belvoireagle.com/wp-content/uploads/2015/12/nannaku-prematho-new-poster-relased.jpg",
-                             "https://www.youtube.com/watch?v=RwB6aOkmEgc")
+                             "https://www.youtube.com/watch?v=RwB6aOkmEgc",
+                             "Jr.NTR", "Sukumar")
 
 bengalTiger = media.Movie("Bengal Tiger", "The story of a lucky guy"
                           " big", "http://www.apnewsforum.com/wp-content/gallery/ravi-teja-bengal-tiger-movie-posters/Ravi-Teja-Bengal-Tiger-Movie-First-Look-Wallpapers-8.jpg",
-                          "https://www.youtube.com/watch?v=GCvipxfEnJY")
+                          "https://www.youtube.com/watch?v=GCvipxfEnJY",
+                          "Ravi Teja", "Sampath Nandi")
 
 nenuSailaja = media.Movie("Nenu Sailaja", " A Love Story",
                           "http://rifflenow.com/wp-content/uploads/2015/12/Nenu-Sailaja-001.jpg",
-                          "https://www.youtube.com/watch?v=i916BRRHoTg")
+                          "https://www.youtube.com/watch?v=i916BRRHoTg",
+                          "Ram", "Kishore Tirumala")
 
 expressRaja = media.Movie("Express Raja", "A Love Story",
                           "http://data1.ibtimes.co.in/cache-img-423-0-photo/en/full/33128/1451455378_express-raja-upcoming-telugu-movie-written-directed-by-merlapeka-gandhi-produced-under-banner.jpg",
-                          "https://www.youtube.com/watch?v=YDpRur0T9iQ")
+                          "https://www.youtube.com/watch?v=YDpRur0T9iQ",
+                          "Sarwanand", "Vamsi Pramod")
 
 soggade = media.Movie("Soggade Chinni Nayana", "A Romantic Comedy",
                       "http://www.cinekushi.com/wp-content/uploads/2015/12/scn-audio.jpg",
-                      "https://www.youtube.com/watch?v=Or40avO08mE")
+                      "https://www.youtube.com/watch?v=Or40avO08mE",
+                      "Nagarjuna", "Kalyan Krishna")
 
 dictator = media.Movie("Dictator", "A typical Balayya movie",
                        "http://cdn.chitramala.in/wp-content/uploads/2015/10/NBK-Dictator-Teaser.jpg",
-                       "https://www.youtube.com/watch?v=zTMVMdCseRM")
+                       "https://www.youtube.com/watch?v=zTMVMdCseRM",
+                       "Bala Krishna", "Srivas")
 
 brueLee = media.Movie("Brue Lee The Fighter", "A Fighters love story",
                       "http://www.idlebrain.com/images5/posters-brucelee3.jpg",
-                      "https://www.youtube.com/watch?v=JdSSm6waqgc")
+                      "https://www.youtube.com/watch?v=JdSSm6waqgc",
+                      "Ram Charan Teja", "Sreenu Vaitla")
 
 sizeZero = media.Movie("Size Zero", "A fat girls story",
                        "http://www.cochintalkies.com/movie-gallery/poster-l/size-zero-movie-poster-7854.jpg",
-                       "https://www.youtube.com/watch?v=RJyCHwQrECY")
+                       "https://www.youtube.com/watch?v=RJyCHwQrECY",
+                       "Anushka Shetty", "Prakash Kovelamudi")
 # All the movie instances are added to a list, here movies is the list
 # of all movies
 movies = [gabbarSinghSardar, nannakuPremato, bengalTiger, nenuSailaja,
